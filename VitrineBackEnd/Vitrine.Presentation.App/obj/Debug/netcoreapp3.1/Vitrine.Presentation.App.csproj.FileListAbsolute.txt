@@ -1,0 +1,13 @@
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.exe
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.deps.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.runtimeconfig.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.runtimeconfig.dev.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\bin\Debug\netcoreapp3.1\Vitrine.Presentation.App.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.csprojAssemblyReference.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.csproj.CoreCompileInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.AssemblyInfoInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.AssemblyInfo.cs
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.genruntimeconfig.cache

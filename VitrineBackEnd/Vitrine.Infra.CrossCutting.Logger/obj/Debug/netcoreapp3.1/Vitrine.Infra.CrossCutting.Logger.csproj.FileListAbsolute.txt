@@ -1,0 +1,9 @@
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\bin\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.deps.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\bin\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\bin\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.csprojAssemblyReference.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.csproj.CoreCompileInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.AssemblyInfoInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.AssemblyInfo.cs
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.pdb
