@@ -1,8 +1,15 @@
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Infra.Data.deps.json
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Infra.Data.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Infra.Data.pdb
-C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.csproj.CoreCompileInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Domain.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Domain.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.csprojAssemblyReference.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.AssemblyInfoInputs.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.AssemblyInfo.cs
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.csproj.CopyComplete
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Infra.Data.runtimeconfig.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\bin\Debug\netcoreapp3.1\Vitrine.Infra.Data.runtimeconfig.dev.json
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.genruntimeconfig.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.Data\obj\Debug\netcoreapp3.1\Vitrine.Infra.Data.csproj.CoreCompileInputs.cache
