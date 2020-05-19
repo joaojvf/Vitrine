@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using Vitrine.Infra.Data;
 
 namespace Vitrine.API
@@ -25,6 +26,17 @@ namespace Vitrine.API
 
         public IConfiguration Configuration { get; }
 
+        private static void ConfigureSwagger(IServiceCollection services)
+        {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Vitrine API",
+                    Version = "v1"
+                });
+            });
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -33,13 +45,25 @@ namespace Vitrine.API
                     option => option
                     .UseMySql(conn, m => m.MigrationsAssembly("Vitrine.Infra.Data")) //Aqui coloca o nome do Projeto não o caminho
                 );
+
             services.AddScoped<DataContext, DataContext>();
+
+            ConfigureSwagger(services);
+
             services.AddControllers();
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Vitrine API");
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -55,6 +79,7 @@ namespace Vitrine.API
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }

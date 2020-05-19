@@ -151,5 +151,10 @@ C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\ru\Microsoft.
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.csproj.CoreCompileInputs.cache
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.MvcApplicationPartsAssemblyInfo.cs
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.MvcApplicationPartsAssemblyInfo.cache
