@@ -24,5 +24,8 @@ namespace Vitrine.Domain.Entities
         [Required]
         [Phone]
         public string Telefone { get; set; }
+
+        [Required]
+        public DateTime DataNascimento { get; set; }
     }
 }

@@ -6,3 +6,4 @@ C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Do
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.AssemblyInfo.cs
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.csprojAssemblyReference.cache
