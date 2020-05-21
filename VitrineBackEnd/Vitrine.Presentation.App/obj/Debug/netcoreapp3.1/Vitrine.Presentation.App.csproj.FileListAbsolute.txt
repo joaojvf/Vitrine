@@ -10,4 +10,3 @@ C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.pdb
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.genruntimeconfig.cache
-C:\repo\Vitrine\VitrineBackEnd\Vitrine.Presentation.App\obj\Debug\netcoreapp3.1\Vitrine.Presentation.App.csprojAssemblyReference.cache

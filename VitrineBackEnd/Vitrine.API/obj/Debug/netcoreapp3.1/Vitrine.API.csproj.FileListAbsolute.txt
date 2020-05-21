@@ -155,6 +155,13 @@ C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.Ope
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.csproj.CoreCompileInputs.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.MvcApplicationPartsAssemblyInfo.cs
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.API\obj\Debug\netcoreapp3.1\Vitrine.API.MvcApplicationPartsAssemblyInfo.cache

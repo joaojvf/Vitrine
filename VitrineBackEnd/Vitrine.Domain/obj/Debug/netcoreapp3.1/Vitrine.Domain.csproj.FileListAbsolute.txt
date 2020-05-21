@@ -1,9 +1,9 @@
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\bin\Debug\netcoreapp3.1\Vitrine.Domain.deps.json
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\bin\Debug\netcoreapp3.1\Vitrine.Domain.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\bin\Debug\netcoreapp3.1\Vitrine.Domain.pdb
-C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.csproj.CoreCompileInputs.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.AssemblyInfoInputs.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.AssemblyInfo.cs
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.pdb
+C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.csproj.CoreCompileInputs.cache
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Domain\obj\Debug\netcoreapp3.1\Vitrine.Domain.csprojAssemblyReference.cache
