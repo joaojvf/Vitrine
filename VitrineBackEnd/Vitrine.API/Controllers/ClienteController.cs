@@ -45,8 +45,11 @@ namespace Vitrine.API.Controllers
             if (ModelState.IsValid)
             {
                 model.DataNascimento = DateTime.Now;
+                model.Senha = CriptografiaService.GerarSenhaCriptografa(model.Senha);
+
                 context.Clientes.Add(model);
                 await context.SaveChangesAsync();
+
                 return model;
             }
             else
