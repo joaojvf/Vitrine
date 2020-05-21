@@ -6,4 +6,3 @@ C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netco
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.AssemblyInfo.cs
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.dll
 C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.pdb
-C:\repo\Vitrine\VitrineBackEnd\Vitrine.Infra.CrossCutting.Logger\obj\Debug\netcoreapp3.1\Vitrine.Infra.CrossCutting.Logger.csprojAssemblyReference.cache

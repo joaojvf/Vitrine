@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Vitrine.Infra.Data;
 
 namespace Vitrine.Infra.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200521134411_AddPedido")]
+    partial class AddPedido
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -69,11 +71,10 @@ namespace Vitrine.Infra.Data.Migrations
                     b.Property<int>("ClienteId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("DataCompra")
-                        .IsRequired()
+                    b.Property<DateTime>("DataCompra")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<DateTime?>("DataEntrega")
+                    b.Property<DateTime>("DataEntrega")
                         .HasColumnType("datetime(6)");
 
                     b.Property<int>("ProdutoId")
