@@ -13,26 +13,24 @@ namespace Vitrine.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
-    {
-        private readonly DataContext _context;
-
-        public ProdutoController(DataContext context)
-        {
-            _context = context;
-        }
-
+    {       
         // GET: api/Produto
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos()
+        [Route ("")]
+        public async Task<ActionResult<List<Produto>>> Get([FromServices] DataContext context)
         {
-            return await _context.Produtos.ToListAsync();
+            var products = await context.Produtos.Include(x => x.Categoria).ToListAsync();
+            return products;
         }
 
         // GET: api/Produto/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Produto>> GetProduto(int id)
+        [HttpGet]
+        [Route("{id:int}")]
+        public async Task<ActionResult<Produto>> GetById([FromServices] DataContext context, int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var produto = await context.Produtos.Include(x => x.Categoria)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == id);
 
             if (produto == null)
             {
@@ -42,69 +40,34 @@ namespace Vitrine.API.Controllers
             return produto;
         }
 
-        // PUT: api/Produto/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduto(int id, Produto produto)
+        [HttpGet]
+        [Route("categoria/{id:int}")]
+        public async Task<ActionResult<List<Produto>>> GetByCategoria([FromServices] DataContext context, int id)
         {
-            if (id != produto.Id)
-            {
-                return BadRequest();
-            }
+            var products = await context.Produtos.Include(x => x.Categoria)
+                .AsNoTracking()
+                .Where(x => x.CategoriaId == id)
+                .ToListAsync();
 
-            _context.Entry(produto).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ProdutoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return products;
         }
 
-        // POST: api/Produto
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Produto>> PostProduto(Produto produto)
+        [Route("")]
+        public async Task<ActionResult<Produto>> Post (
+            [FromServices] DataContext context,
+            [FromBody] Produto model)
         {
-            _context.Produtos.Add(produto);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetProduto", new { id = produto.Id }, produto);
-        }
-
-        // DELETE: api/Produto/5
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<Produto>> DeleteProduto(int id)
-        {
-            var produto = await _context.Produtos.FindAsync(id);
-            if (produto == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                context.Produtos.Add(model);
+                await context.SaveChangesAsync();
+                return model;
+            }else
+            {
+                return BadRequest(ModelState);
             }
-
-            _context.Produtos.Remove(produto);
-            await _context.SaveChangesAsync();
-
-            return produto;
         }
 
-        private bool ProdutoExists(int id)
-        {
-            return _context.Produtos.Any(e => e.Id == id);
-        }
     }
 }
