@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace Vitrine.Domain.Entities
@@ -11,7 +12,7 @@ namespace Vitrine.Domain.Entities
         public int Id { get; set; }
         [Required]
         public double Valor { get; set; }
-        [Required]
+        [AllowNull]
         public DateTime? DataCompra { get; set; }
         
         public DateTime? DataEntrega { get; set; }
